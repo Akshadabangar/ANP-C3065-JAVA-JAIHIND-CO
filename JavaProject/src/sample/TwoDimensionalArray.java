@@ -23,6 +23,14 @@ public class TwoDimensionalArray
 		  }
 		  System.out.println();
 	  }
+	  System.out.println("Enhanced for loop");
+	  for(int i[]:arr1)
+	  {
+		  for(int  j:i) {
+			  System.out.print(j+" ");
+		  }
+		  System.out.println();
+	  }
 }
 }
 

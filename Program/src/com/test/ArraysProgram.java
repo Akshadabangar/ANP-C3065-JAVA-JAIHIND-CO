@@ -18,15 +18,14 @@ public class ArraysProgram {
 		array1[2] = "shiv";
 		array1[3] = "akshu";
 		array1[4] = "sonii";
-		
 
 		int[] array2 = { 23, 7, 89, 19, 20, 18 };// arraY2 CREATE
 		int lengthOfArray2 = array2.length;
 		System.out.println("Size Of Array1: " + lengthOfArray2);
 		// System.out.println(array2);// It print garbage value
-		
+
 		// we can print arrays y traversing it
-		for (int i = 0; i <array1.length; i++) {
+		for (int i = 0; i < array1.length; i++) {
 
 			System.out.println(array1[i]);
 		}

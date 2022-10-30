@@ -1,6 +1,6 @@
 package com.test;
 
-class Program2 {
+class MethodDefineAndCall {
 
 	public static void addition(int a, int b) {
 		// code or implementation addition method
@@ -17,13 +17,13 @@ class Program2 {
 	static public void main(String[] args) {
 		System.out.println("main with string args");
 		
-		Program2 obj = new Program2();
+		MethodDefineAndCall obj = new MethodDefineAndCall();
 		//In case of static method we can call method by 3 one way
 				//by creating object
 				// class.method name
 				//method name
 		addition(20, 30);
-		Program2.addition(54, 78);
+		MethodDefineAndCall.addition(54, 78);
 		obj.addition(87, 98);
 		// but in case of non-static method we can call method by only one way
 		//by creating object
